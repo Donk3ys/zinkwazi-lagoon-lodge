@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: db-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: db-pod
+
+# Pod temeplate
+  template:
+    metadata:
+      labels:
+        component: db-pod
+    spec:
+      # spec<name> == volumeMounts<name>
+      volumes:
+      - name: db-storage
+        persistentVolumeClaim:
+          claimName: persist-vol-claim
+      containers:
+        - name: db-container
+          image: postgres:alpine
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_USER
+              value: dev
+            - name: POSTGRES_PASSWORD
+              value: ChangeMe 
+            - name: POSTGRES_DB
+              value: zinkwazi_menu
+          volumeMounts:
+            - name: db-storage
+              mountPath: /var/lib/postgresql/data
+              subPath: postgres
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: db-cluster-ip-service
+spec:
+  type: ClusterIP
+  selector:
+    component: db-pod
+  ports:
+    - port: 5432
+      targetPort: 5432
+

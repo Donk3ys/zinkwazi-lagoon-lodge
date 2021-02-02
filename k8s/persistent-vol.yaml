@@ -1,0 +1,25 @@
+#apiVersion: v1
+#kind: PersistentVolume
+#metadata:
+#  name: persist-vol
+#spec:
+#  storageClassName: manual
+#  capacity:
+#    storage: 1Gi
+#  accessModes:
+#    - ReadWriteOnce
+#  hostPath:
+#    path: "/mnt/database-data"
+#
+#---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: persist-vol-claim
+spec:
+#  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 500Mi

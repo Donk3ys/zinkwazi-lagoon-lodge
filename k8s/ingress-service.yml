@@ -1,0 +1,22 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-service
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: web-admin-cluster-ip-service
+                port:
+                  number: 8000
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: api-cluster-ip-service
+                port:
+                  number: 8080

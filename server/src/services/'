@@ -1,0 +1,39 @@
+// Get db & cache
+const db = require('../services/db').getDb();
+const cache = require('../services/cache').getCache();
+
+
+module.exports.runSocketIO = function runSocket(io) {
+	
+	// Client Connects
+	io.on('connection', (client) => {
+		let userId;
+
+		// Send Connection Message
+		console.log(`${client.id}: connected`);
+
+		// Add userId and connectionId to connection list
+		client.on('connected', async (clientUidJson) => {
+			connectedUserMap.set(clientUidJson.uid, client.id);
+			console.log(connectedUserMap);
+
+			// Set userId for whenuser disconncts
+			userId = clientUidJson.uid;
+
+			// Get all users undelivcered messages
+			const unDeliveredMessages = await db.collection(MESSAGE_COLLECTION).find(
+				{
+					toId: userId,
+					delivered: false
+				}
+			).toArray();
+
+			// Send all undeliverd messages
+			for (var i in unDeliveredMessages) {
+				// Send message to reciever
+				io.to(client.id).emit('message', unDeliveredMessages[i]);
+				console.log(`sent undeliverd message to: ${client.id}`);
+			}
+		}); // connected
+	}); // connection
+} // runSocket

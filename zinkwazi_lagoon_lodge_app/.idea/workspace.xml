@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f5ec2fc-3ec8-438e-b81e-8d346088008d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/notification.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/notification.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_29]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hYRcL8XW7iyqsOGqjkSpRRexw7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f5ec2fc-3ec8-438e-b81e-8d346088008d" name="Default Changelist" comment="" />
+      <created>1600186116999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600186116999</updated>
+    </task>
+    <task id="LOCAL-00001" summary="fixed navigation &amp; added sliver appbar">
+      <created>1600351846682</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600351846682</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added SocketIO">
+      <created>1600859454100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600859454100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed SocketIO and some routes + added updating server cache when socketId changes">
+      <created>1601115182990</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601115182990</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactor">
+      <created>1602590898297</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602590898297</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed navigation &amp; added sliver appbar" />
+    <MESSAGE value="Added SocketIO" />
+    <MESSAGE value="Fixed SocketIO and some routes + added updating server cache when socketId changes" />
+    <MESSAGE value="Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="720" y="23" width="720" height="877" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602587330724">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="720" y="23" width="720" height="877" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1602587330724" />
+    <state x="720" y="23" width="720" height="877" key="AVDManager" timestamp="1605289167423">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="720" y="23" width="720" height="877" key="AVDManager/0.23.1440.877@0.23.1440.877" timestamp="1605289167423" />
+    <state x="556" y="23" width="884" height="877" key="CommitChangelistDialog2" timestamp="1602590898090">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="556" y="23" width="884" height="877" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1602590898090" />
+    <state width="1402" height="306" key="GridCell.Tab.0.bottom" timestamp="1611130960934">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="606" height="151" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605282706876" />
+    <state width="939" height="193" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1602509514473" />
+    <state width="1041" height="306" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1611126048291" />
+    <state width="1402" height="306" key="GridCell.Tab.0.bottom/0.25.1920.1055/1920.25.1440.875@0.25.1920.1055" timestamp="1611130960934" />
+    <state width="1402" height="306" key="GridCell.Tab.0.center" timestamp="1611130960934">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="606" height="151" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605282706875" />
+    <state width="939" height="193" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1602509514473" />
+    <state width="1041" height="306" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1611126048290" />
+    <state width="1402" height="306" key="GridCell.Tab.0.center/0.25.1920.1055/1920.25.1440.875@0.25.1920.1055" timestamp="1611130960934" />
+    <state width="1402" height="306" key="GridCell.Tab.0.left" timestamp="1611130960934">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="606" height="151" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605282706875" />
+    <state width="939" height="193" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1602509514472" />
+    <state width="1041" height="306" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1611126048290" />
+    <state width="1402" height="306" key="GridCell.Tab.0.left/0.25.1920.1055/1920.25.1440.875@0.25.1920.1055" timestamp="1611130960934" />
+    <state width="1402" height="306" key="GridCell.Tab.0.right" timestamp="1611130960934">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="606" height="151" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605282706875" />
+    <state width="939" height="193" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1602509514473" />
+    <state width="1041" height="306" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1611126048290" />
+    <state width="1402" height="306" key="GridCell.Tab.0.right/0.25.1920.1055/1920.25.1440.875@0.25.1920.1055" timestamp="1611130960934" />
+    <state x="720" y="25" width="720" height="875" key="IDE.errors.dialog" timestamp="1611086100585">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="720" y="25" width="720" height="875" key="IDE.errors.dialog/0.25.1440.875@0.25.1440.875" timestamp="1611086100585" />
+    <state x="960" y="23" width="960" height="1057" key="SettingsEditor" timestamp="1602826683634">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="960" y="23" width="960" height="1057" key="SettingsEditor/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1602826683634" />
+  </component>
+</project>

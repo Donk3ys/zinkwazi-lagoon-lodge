@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cache-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: cache-pod
+
+# Pod temeplate
+  template:
+    metadata:
+      labels:
+        component: cache-pod
+    spec:
+      # spec<name> == volumeMounts<name>
+      volumes:
+        - name: cache-storage
+          persistentVolumeClaim:
+            claimName: persist-vol-claim
+      containers:
+        - name: cache-container
+          image: redis:alpine
+          ports:
+            - containerPort: 6379
+          volumeMounts:
+            - name: cache-storage
+              mountPath: /var/lib/redis
+              subPath: redis
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cache-cluster-ip-service
+spec:
+  type: ClusterIP
+  selector:
+    component: cache-pod
+  ports:
+    - port: 6379
+      targetPort: 6379
+

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7d9034d-10e8-4e53-bab1-687bdfdd4e62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/lib/view_models/order_vm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view_models/order_vm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_9_API_28]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fJrHSbsiY1Lddcg1dO5HD7znwH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="memory.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/views" />
+      <recent name="$PROJECT_DIR$/lib/view_models" />
+      <recent name="$PROJECT_DIR$/lib/view_pages" />
+      <recent name="$PROJECT_DIR$/lib/services" />
+      <recent name="$PROJECT_DIR$/lib/repositories" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/view_pages" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7d9034d-10e8-4e53-bab1-687bdfdd4e62" name="Default Changelist" comment="" />
+      <created>1595946948569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595946948569</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added SocketIO">
+      <created>1600859294597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600859294597</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed socketIO and some routes">
+      <created>1601115127687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601115127688</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Auth and fixed socket issues">
+      <created>1601213487811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601213487811</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added users">
+      <created>1601366184635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601366184635</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added ability to change user password &amp; added snackbar to all pages">
+      <created>1601718544750</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601718544750</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed snackbar issues">
+      <created>1602233103481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602233103481</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed Auth route and added .htacees file">
+      <created>1602498311156</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602498311156</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".htaccess" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added SocketIO" />
+    <MESSAGE value="Fixed socketIO and some routes" />
+    <MESSAGE value="Added Auth and fixed socket issues" />
+    <MESSAGE value="Added users" />
+    <MESSAGE value="Added ability to change user password &amp; added snackbar to all pages" />
+    <MESSAGE value="Fixed snackbar issues" />
+    <MESSAGE value="Changed Auth route and added .htacees file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Auth route and added .htacees file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="960" y="23" width="960" height="1057" key="#PSD" timestamp="1596700077700">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="960" y="23" width="960" height="1057" key="#PSD/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1596700077700" />
+    <state x="960" y="23" width="960" height="1057" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599889316413">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="960" y="23" width="960" height="1057" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1599889316413" />
+    <state x="960" y="23" width="960" height="1057" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601476809923">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="0" y="370" width="720" height="530" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1599409993286" />
+    <state x="960" y="23" width="960" height="1057" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1601476809923" />
+    <state x="0" y="551" width="1151" height="529" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601211830917">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="0" y="551" width="1151" height="529" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1601211830917" />
+    <state x="960" y="23" width="960" height="1057" key="AndroidProcessChooserDialog" timestamp="1596700168251">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="960" y="23" width="960" height="1057" key="AndroidProcessChooserDialog/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1596700168251" />
+    <state x="960" y="23" width="960" height="1057" key="CommitChangelistDialog2" timestamp="1602498311011">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="714" y="23" width="726" height="877" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601366184479" />
+    <state x="960" y="23" width="960" height="1057" key="CommitChangelistDialog2/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1602498311011" />
+    <state x="960" y="23" width="960" height="1057" key="DiffContextDialog" timestamp="1600427712525">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="960" y="23" width="960" height="1057" key="DiffContextDialog/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1600427712525" />
+    <state width="676" height="159" key="GridCell.Tab.0.bottom" timestamp="1605289166760">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="676" height="159" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605289166760" />
+    <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1602498315172" />
+    <state width="676" height="159" key="GridCell.Tab.0.center" timestamp="1605289166760">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="676" height="159" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605289166760" />
+    <state width="1878" height="202" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1602498315171" />
+    <state width="676" height="159" key="GridCell.Tab.0.left" timestamp="1605289166759">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="676" height="159" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605289166759" />
+    <state width="1878" height="202" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1602498315171" />
+    <state width="676" height="159" key="GridCell.Tab.0.right" timestamp="1605289166760">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="676" height="159" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605289166760" />
+    <state width="1878" height="202" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1602498315172" />
+    <state x="960" y="23" width="960" height="1057" key="SettingsEditor" timestamp="1601477081150">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="960" y="23" width="960" height="1057" key="SettingsEditor/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1601477081150" />
+    <state x="0" y="551" width="1151" height="529" key="Vcs.Push.Dialog.v2" timestamp="1601213489526">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="0" y="551" width="1151" height="529" key="Vcs.Push.Dialog.v2/0.23.1920.1057/1920.23.1440.877@0.23.1920.1057" timestamp="1601213489526" />
+    <state x="720" y="23" width="720" height="877" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1599748816367">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="720" y="23" width="720" height="877" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1599748816367" />
+    <state x="372" y="218" width="695" height="486" key="find.popup" timestamp="1601036120409">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="372" y="218" width="695" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1601036120409" />
+  </component>
+</project>
